@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CN HTML Assignment</title>
+</head>
+
+<body>
+    <h2 style="color:red;">Welcome to The Coding Ninjas website, by following the ways mentionaed below you can
+        register for the Bootcamp</h2>
+    <h3>Hello there, myself Hardik Gupta.</h3>
+    <h3>Following is My HTML Assignment:</h3>
+    <strong>
+        <p>Today we'll see the entire procedure of getting into the Coding Ninjas Clan</p>
+    </strong>
+    <ul type="circle">
+        <li>Fill the Registration Form</li>
+        <li>Attend an online entrance test</li>
+        <li>Make a Portfolio Website as a project</li>
+        <li>Clear the interview round</li>
+    </ul>
+    <hr>
+    <strong>
+        <p>If you clear the interview round, Congratulations on getting selected!!!</p>
+    </strong>
+    <strong>
+        <p>If not,</p>
+    </strong>
+    <ol>
+        <li>Attend an online 2 months Bootcamp Session</li>
+        <li>Build a Project again (of better quality, ofcourse)</li>
+        <li>Pass the interview and get along with us!</li>
+    </ol>
+    <hr>
+    <strong>
+        <p>Here is the Basic example of creating a table using HTML</p>
+    </strong>
+    <table border="1px">
+        <tr>
+            <th bgcolor="yellow">Subject</th>
+            <th bgcolor="yellow">Theory</th>
+            <th bgcolor="yellow">Practical</th>
+            <th bgcolor="yellow">Total Marks</th>
+            <th bgcolor="yellow">Grades</th>
+        </tr>
+        <tr align="center">
+            <td bgcolor="sky blue">English</td>
+            <td bgcolor="sky blue">92</td>
+            <td bgcolor="sky blue">75</td>
+            <td bgcolor="sky blue">92</td>
+            <td bgcolor="sky blue">A1</td>
+        </tr>
+        <tr align="center">
+            <td bgcolor="sky blue">Mathematics</td>
+            <td bgcolor="sky blue">69</td>
+            <td bgcolor="sky blue">20</td>
+            <td bgcolor="sky blue">89</td>
+            <td bgcolor="sky blue">A2</td>
+        </tr>
+        <tr align="center">
+            <td bgcolor="sky blue">Physics</td>
+            <td bgcolor="sky blue">68</td>
+            <td bgcolor="sky blue" bgcolor="sky blue">18</td>
+            <td bgcolor="sky blue">86</td>
+            <td bgcolor="sky blue">A2</td>
+        </tr>
+        <tr align="center">
+            <td bgcolor="sky blue">Chemistry</td>
+            <td bgcolor="sky blue">70</td>
+            <td bgcolor="sky blue">18</td>
+            <td bgcolor="sky blue">88</td>
+            <td bgcolor="sky blue">A2</td>
+        </tr>
+        <tr align="center">
+            <td bgcolor="sky blue">Computer Science</td>
+            <td bgcolor="sky blue">75</td>
+            <td bgcolor="sky blue">20</td>
+            <td bgcolor="sky blue">95</td>
+            <td bgcolor="sky blue">A1</td>
+        </tr>
+        <tr align="center">
+            <td colspan="5" bgcolor="lightgreen">Result : <b> PASS</b></td>
+        </tr>
+    </table>
+    <hr>
+    <h3>Coding Ninjas Recruitment Form</h3>
+    <strong style="color:crimson">(Fill in the required* details)</strong>
+    <br>
+    <br>
+    <br>
+    <form>
+        <div>
+            <label for="myName"> <strong>Name*</strong> </label>
+            <br>
+            <input type="text" id="myName" value="Enter your Name">
+        </div>
+        <br>
+        <div style="width:200px;height:60px;border:1px solid rgb(0, 0, 0);">
+            <strong>Gender*</strong>
+            <br>
+            &nbsp; &nbsp;<input type="radio" name="Gender" id="male" value="Male">
+            <label for="male">Male</label> &nbsp; &nbsp; &nbsp; &nbsp;
+            <input type="radio" name="Gender" id="female" value="Female">
+            <label for="female">Female</label>
+            <br>
+            &nbsp; &nbsp;<input type="radio" name="Gender" id="others" value="Others">
+            <label for="others">Others</label>
+        </div>
+        <br>
+        <div>
+            <strong>Address*</strong>
+            <br>
+            <textarea name="address" id="myAddresss" cols="90" rows="10">Enter your Full  Address</textarea>
+        </div>
+        <br>
+        <div>
+            <label for="myEmail"><strong>E-mail* :</strong></label>
+            &nbsp; <input type="email" name="email" id="myEmail" value="codingninjas@example.com">
+        </div>
+        <br>
+        <div>
+            <label for="myPincode"><strong>Pin-Code* :</strong></label>
+            &nbsp; <input type="text" name="pincode" id="myPincode" maxlength="6">
+        </div>
+        <br>
+        <br>
+        <strong>Write something about yourself :</strong>
+        <br>
+        <span style="color: grey;">[Your skills, achievements, etc.]</span>
+        <br>
+        <textarea name="myself" id="mySelf" cols="90" rows="10"></textarea>
+        <br>
+        <br>
+        <input type="submit" value="Submit"> &nbsp; &nbsp;
+        <input type="reset" value="Reset Now">
+    </form>
+    <br>
+    <hr>
+    <form>
+        <h3>Payment Details</h3>
+        <div>
+            <strong>Card Type* :</strong>
+            &nbsp; <select name="cardtype" id="myCardtype">
+                <option value="--select your card type--">--select your card type--</option>
+                <option value="Debit Card">Debit Card</option>
+                <option value="Credit Card">Credit Card</option>
+            </select>
+        </div>
+        <br>
+        <div>
+            <label for="myCardno"><strong>Card Number* :</strong></label>
+            &nbsp; <input type="text" id="myCardno" value="1111-2222-3333-4444" maxlength="16">
+        </div>
+        <br>
+        <div>
+            <strong>Expiration Date* :</strong>
+            &nbsp; <input type="date" name="date" id="myExpd">
+        </div>
+        <br>
+        <div>
+            <label for="myCVV"><strong>CVV* :</strong></label>
+            &nbsp; <input type="text" name="cvv" id="myCVV" value="123" maxlength="3">
+        </div>
+        <br>
+        <div>
+            <label for="myOTP"><strong>OTP* :</strong></label>
+            &nbsp; <input type="text" id="myOTP" value="3456" maxlength="4">
+        </div>
+        <br>
+        <br>
+        <input type="submit" value="Pay Now"> &nbsp; &nbsp;
+        <input type="reset" value="Reset Now">
+    </form>
+    <br>
+    <hr>
+    <strong>
+        <h3>Following are some images :</h3>
+    </strong>
+    <img src="img1.jpg" alt="Sorry" width="400" height="340"><img src="img2.jpg" alt="Sorry" width="500"
+        height="340"><img src="img3.jpg" alt="Sorry" width="500" height="340"><img src="img4.jpg" alt="Sorry"
+        height="300" width="500"><img src="img5.jpg" alt="Sorry" width="400" height="300"><img src="img6.jpg"
+        alt="Sorry" width="500" height="300">
+    <hr>
+    <h3>The following are some links attached :</h3>
+    <a href="https://www.google.com/" target="_blank"><big>This is Google</big></a>
+    <br>
+    <br>
+    <a href="https://www.codingninjas.com/" target="_blank"><big>This is Coding Ninjas website</big></a>
+    <br>
+    <br>
+    <a href="https://www.youtube.com/" target="_blank"><big>This is Youtube</big></a>
+    <hr>
+    <h3>Following are some iFrames :</h3>
+    <iframe src="https://www.youtube.com/embed/DJt07GaCRv0" frameborder="0" width="700" height="500"></iframe>
+    <iframe src="https://www.youtube.com/embed/5I_exRiVuQQ" frameborder="0" width="700" height="500"></iframe>
+    <iframe src="https://www.youtube.com/embed/srllRwKIDlI" frameborder="0" width="700" height="500"></iframe>
+    <iframe src="https://www.youtube.com/embed/P9EsWKfbfDw" frameborder="0" width="700" height="500"></iframe>
+    <hr>
+    <h2 style="text-align: center;">Thanks for visiting our website</h2>
+</body>
+
+</html>
